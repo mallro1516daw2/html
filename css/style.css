@@ -1,0 +1,229 @@
+body{
+	background-color: #2a2c31 !important;
+}
+
+  .flecha{
+  width: 10px;
+  height: 10px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left:8px solid #fffedf;
+  float:right;
+}
+
+.info{
+  color: #fffedf;
+}
+
+/*POSICION DE LOS BOTONES*/
+
+#login {
+  width: 400px;
+  padding-top: 200px;
+  margin: auto;
+}
+/*DISEÑO DE LOS BOTONES*/
+.boton {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #fffedf;
+  font-size: 20px;
+  background: #5a2e2e;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  float: left;
+}
+
+.boton:hover {
+  background: #fffedf;
+  color: #5a2e2e;
+  text-decoration: none;
+}
+
+.boton2 {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #5a2e2e;
+  font-size: 20px;
+  background: #fffedf;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  float: left;
+}
+
+.boton2:hover {
+  background: #5a2e2e;
+  color: #fffedf;
+  text-decoration: none;
+}
+
+/*TAMAÑO LOGO*/
+.logo{
+  margin:auto;
+  padding-right: -30px;
+	 width: 100%; 
+	 height: 100%;
+  padding-top: 9%;
+   padding-bottom: 4%;
+}
+
+.separacion-slide{
+  padding-top: 10%;
+}
+
+/*BUSCADOR*/
+#search{
+  float: right;
+  margin-top: 9%;
+  
+}
+#search input[type="text"] {
+    background: url(../IMGs/lupa.png) no-repeat 90% 3px #3e4147;
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #fffedf;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+	padding-left: 10 px;
+}
+
+#search input[type="text"]:focus {
+    width: 200px;
+
+}
+
+button {
+	margin-top:140px;
+	margin-bottom: 60px;
+}
+
+
+
+.pie-pag{
+  float: left;
+  margin-top: 15%;
+  width: 100%;
+  height: 35px;
+  background-color:  #3e4147;
+  color: #fffedf;
+}
+
+@media screen and (max-width: 1023px){
+  .n .col-md-3{
+    width: 100%;
+  }
+  .info{
+    display: block;
+  }
+  .visible{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .info{
+    display: none;
+  }
+}
+
+.scroll{
+  background : #000;
+  margin-left: 2%;
+  margin-right: 2%;
+  color : #fffedf;
+  padding : 4px;
+  width : 90%;
+  height : 300px;
+  overflow : auto; 
+  border : solid 2px #fffedf;
+}
+.color{
+	margin-left: 1%;
+  color:#fffedf;
+}
+
+/*pruebas*/
+
+ul, li, ol {
+	list-style-type:none;
+	}
+#floating-menu {
+    width:940px;
+    padding:10px;
+	*padding:5px 10px;
+	margin:0 auto;
+	border:1px  solid green;
+	background-color:#3D3A40;
+	border:8px solid #fff;
+	}	
+#floating-menu ul {
+	list-style-type: none;
+	line-height:30px;
+	background: #FF0040;
+	}
+#floating-menu ul li {
+	position:relative;
+	display:inline-block;
+	*float:left;
+	}
+#floating-menu ul li a {
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	padding:0 20px;
+	cursor:pointer;
+	}
+#floating-menu ul li:hover a {
+	color:#fff;
+	background-color:#5e8ce9;
+	cursor:pointer;
+	}
+#floating-menu ul li ul {
+	display:none;
+	position:absolute;
+	left:0;
+	top:30px;
+	background-color:#5e8ce9;
+	width:200px;
+	line-height:18px;
+	}
+#floating-menu ul li ul li {
+	border-bottom:1px solid #91b3f7;
+	display:block;
+	*float:none;
+	}
+#floating-menu ul li ul li a {
+	color:#fff;
+	background-color:#0066FF;
+	cursor:pointer;
+	padding:5px 10px;
+	}
+#floating-menu ul li ul li a:hover,
+#floating-menu ul li ul li a.active {
+	color:#fff;
+	background-color:#0000FF;
+	}
+#floating-menu ul li:hover ul {
+	display:block !important;
+	}
+	
+.dropmenu {
+    _zoom:1;
+	}
+
+

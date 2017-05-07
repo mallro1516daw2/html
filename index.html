@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>SaCis</title>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+		<link rel="icon" href="IMGs/favicon.ico" type="image/x-icon" />
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="http://cdn.leagueoflegends.com/lolkit/1.1.9/lol-kit.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12">
+					<div class="row">
+						<div class="col-lg-3 col-md-2 col-xs-12 col-sm-12">
+							<img class="logo" src="IMGs\logo.png">
+						</div>
+						<div class="visible col-lg-9 col-md-9" >
+							<nav class="navbar navbar-inverse">
+								<div class="container-fluid">
+									<div class="navbar-header">
+										<form method="get" action="/search" id="search">
+											<input name="q" type="text" size="40" placeholder="BUSCAR..."/>
+										</form>
+									</div>
+									<div class="collapse navbar-collapse" id="myNavbar">
+										<ul class="nav navbar-nav">
+											<li class="active">
+												<a href="index.html">
+													Home
+												</a>
+											</li>
+											<li class="dropdown">
+												<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+													Idiomas<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu">
+													<li class="current">
+														<a>
+															<img alt="spain" src="IMGs/ico/spain.ico" width=18%/>Español
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img alt="catalonia" src="IMGs/ico/catalonia.png" width=18%/> Catalán 
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img alt="english" src="IMGs/ico/english.ico" width=18%/> Inglés 
+														</a>
+													</li>
+												</ul>
+											</li>
+											<li class="dropdown">
+												<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+													AlGOASASA<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu">
+													<li>
+														<a href= "condicionesTerminos.html">
+															Condiciones y terminos 
+														</a>
+													</li>
+													<li>
+														<a href="#">
+														Contacto 
+														</a>
+													</li>
+													<li>
+														<a href="#">
+														Como surgió 
+														</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+										<ul class="nav navbar-nav navbar-right">
+											<li>
+												<a href="#">
+													<span class="glyphicon glyphicon-user"></span>Registrarse
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<span class="glyphicon glyphicon-log-in"></span>Login
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</nav>
+						</div>
+					</div>
+					<h1 class="info">Para usar el juego debes usar dispositivos con más resolución gracias.</h1>
+					<div class="visible row">
+						<div class="col-lg-12 col-md-12">
+							<script type="text/javascript" src="js/jssor.slider.min.js"></script>
+							<script>
+								jssor_1_slider_init = function() {
+								
+								var jssor_1_SlideoTransitions = [
+								  [{b:0,d:600,y:-290,e:{y:27}}],
+								  [{b:0,d:1000,y:185},{b:1000,d:500,o:-1},{b:1500,d:500,o:1},{b:2000,d:1500,r:360},{b:3500,d:1000,rX:30},{b:4500,d:500,rX:-30},{b:5000,d:1000,rY:30},{b:6000,d:500,rY:-30},{b:6500,d:500,sX:1},{b:7000,d:500,sX:-1},{b:7500,d:500,sY:1},{b:8000,d:500,sY:-1},{b:8500,d:500,kX:30},{b:9000,d:500,kX:-30},{b:9500,d:500,kY:30},{b:10000,d:500,kY:-30},{b:10500,d:500,c:{x:87.50,t:-87.50}},{b:11000,d:500,c:{x:-87.50,t:87.50}}],
+								  [{b:0,d:600,x:410,e:{x:27}}],
+								  [{b:-1,d:1,o:-1},{b:0,d:600,o:1,e:{o:5}}],
+								  [{b:-1,d:1,c:{x:175.0,t:-175.0}},{b:0,d:800,c:{x:-175.0,t:175.0},e:{c:{x:7,t:7}}}],
+								  [{b:-1,d:1,o:-1},{b:0,d:600,x:-570,o:1,e:{x:6}}],
+								  [{b:-1,d:1,o:-1,r:-180},{b:0,d:800,o:1,r:180,e:{r:7}}],
+								  [{b:0,d:1000,y:80,e:{y:24}},{b:1000,d:1100,x:570,y:170,o:-1,r:30,sX:9,sY:9,e:{x:2,y:6,r:1,sX:5,sY:5}}],
+								  [{b:2000,d:600,rY:30}],
+								  [{b:0,d:500,x:-105},{b:500,d:500,x:230},{b:1000,d:500,y:-120},{b:1500,d:500,x:-70,y:120},{b:2600,d:500,y:-80},{b:3100,d:900,y:160,e:{y:24}}],
+								  [{b:0,d:1000,o:-0.4,rX:2,rY:1},{b:1000,d:1000,rY:1},{b:2000,d:1000,rX:-1},{b:3000,d:1000,rY:-1},{b:4000,d:1000,o:0.4,rX:-1,rY:-1}]
+								];
+								
+								var jssor_1_options = {
+								  $AutoPlay: true,
+								  $Idle: 2000,
+								  $CaptionSliderOptions: {
+									$Class: $JssorCaptionSlideo$,
+									$Transitions: jssor_1_SlideoTransitions,
+									$Breaks: [
+									  [{d:2000,b:1000}]
+									]
+								  },
+								  $ArrowNavigatorOptions: {
+									$Class: $JssorArrowNavigator$
+								  },
+								  $BulletNavigatorOptions: {
+									$Class: $JssorBulletNavigator$
+								  }
+								};
+								
+								var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+								
+								//responsive code begin
+								//you can remove responsive code if you don't want the slider scales while window resizing
+								function ScaleSlider() {
+									
+									var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+									if (refSize) {
+										
+										refSize = Math.min(refSize-100);
+										jssor_1_slider.$ScaleWidth(refSize);
+									}
+									else {
+										window.setTimeout(ScaleSlider, 30);
+									}
+								}
+								ScaleSlider();
+								$Jssor$.$AddEvent(window, "load", ScaleSlider);
+								$Jssor$.$AddEvent(window, "resize", ScaleSlider);
+								$Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+								//responsive code end
+								};
+							</script>
+							<div id="wrapper">
+								<div id="header-wrapper">
+									<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden;">
+										<!-- Loading Screen -->
+										<div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+											<div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+											<div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+										</div>
+										<div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden;">
+											<div data-p="112.50" style="display: none;">
+												<a href="licenses.txt">
+													<img data-u="image" src="img/002.jpg"/>
+												</a>
+											</div>
+											<div data-p="112.50" style="display: none;">
+												<a href="licenses.txt">
+													<img data-u="image" src="img/007.jpg" />
+												</a>
+											</div>
+											<div data-p="112.50" style="display: none;">
+												<a href="licenses.txt">
+													<img data-u="image" src="img/003.jpg"/>
+												</a>
+											</div>
+											<div data-p="112.50" style="display: none;">
+												<a href="licenses.txt">
+													<img data-u="image" src="img/004.jpg"/>
+												</a>
+											</div>
+											<div data-p="112.50" style="display: none;">
+												<a href="licenses.txt">
+													<img data-u="image" src="img/005.jpg"/>
+												</a>
+											</div>
+											<div data-p="112.50" style="display: none;">
+												<a href="licenses.txt">
+													<img data-u="image" src="img/006.jpg"/>
+												</a>
+											</div>
+											<div data-p="112.50" style="display: none;">
+												<a href="licenses.txt">
+													<img data-u="image" src="img/009.jpg" />
+												</a>
+											</div>
+											<div data-b="0" data-p="112.50" style="display: none;">
+												<a href="licenses.txt">
+													<img data-u="image" src="img/008.jpg" />
+												</a>
+											</div>
+											<div data-p="112.50" style="display: none;">
+												<a href="licenses.txt">
+													<img data-u="image" src="img/011.jpg" />
+												</a>
+											</div>
+											<div data-p="112.50" style="display: none;">
+												<a href="licenses.txt">
+													<img data-u="image" src="img/010.jpg" />
+												</a>
+											</div>
+										</div>
+										<script>
+											jssor_1_slider_init();
+										</script>
+									</div>
+								</div>
+							</div>		
+							<div class="section-wrapper section-wrapper-primary">
+								<div class="section-wrapper-top"></div>
+								<div class="section-wrapper-content">
+									<div class="section-wrapper-content-wrapper">
+										<div class="gs-container">
+											<div class="default-1-3"><!-- Diferentes cajas -->
+												<div class="content-border">
+													<div>
+														<div class="medium-card-content white-stone">
+															<img class="logo" src="IMGs\logo.png">
+															<hr class="subtle-divider"/>
+															<div class="medium-card-content-content">
+																<h4>
+																	<div>
+																		<a>
+																			Titulo noticia
+																		</a>
+																	</div>
+																</h4>
+																<div>
+																	Descripcion de la noticia o algo yo k se
+																</div>
+															</div>
+															<div class="medium-card-content-meta">
+																<hr class="subtle-divider"/>
+																<div class="gs-container">
+																	<div class="default-1-2">
+																		<div class="all-caps subtle icon-container icon-posted">
+																			<span>
+																				Hace un año
+																			</span>
+																		</div>
+																	</div>
+																	<div class="default-1-2">
+																		<div class="all-caps subtle">
+																			<a href="#">
+																				Noticias
+																			</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+																<div class="default-1-3"><!-- Diferentes cajas -->
+												<div class="content-border">
+													<div>
+														<div class="medium-card-content white-stone">
+															<div class="medium-card-content-content">
+																<h4>
+																	<div>
+																		<a>
+																			Titulo noticia
+																		</a>
+																	</div>
+																</h4>
+																<div>
+																	Descripcion de la noticia o algo yo k se
+																</div>
+															</div>
+															<div class="medium-card-content-meta">
+																<hr class="subtle-divider"/>
+																<div class="gs-container">
+																	<div class="default-1-2">
+																		<div class="all-caps subtle icon-container icon-posted">
+																			<span>
+																				1 day ago
+																			</span>
+																		</div>
+																	</div>
+																	<div class="default-1-2">
+																		<div class="all-caps subtle">
+																			<a href="#">
+																				Noticias
+																			</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+																<div class="default-1-3"><!-- Diferentes cajas -->
+												<div class="content-border">
+													<div>
+														<div class="medium-card-content white-stone">
+															<div class="medium-card-content-content">
+																<h4>
+																	<div>
+																		<a>
+																			Titulo noticia
+																		</a>
+																	</div>
+																</h4>
+																<div>
+																	Descripcion de la noticia o algo yo k se
+																</div>
+															</div>
+															<div class="medium-card-content-meta">
+																<hr class="subtle-divider"/>
+																<div class="gs-container">
+																	<div class="default-1-2">
+																		<div class="all-caps subtle icon-container icon-posted">
+																			<span>
+																				1 day ago
+																			</span>
+																		</div>
+																	</div>
+																	<div class="default-1-2">
+																		<div class="all-caps subtle">
+																			<a href="#">
+																				Noticias
+																			</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+																<div class="default-1-3"><!-- Diferentes cajas -->
+												<div class="content-border">
+													<div>
+														<div class="medium-card-content white-stone">
+															<div class="medium-card-content-content">
+																<h4>
+																	<div>
+																		<a>
+																			Titulo noticia
+																		</a>
+																	</div>
+																</h4>
+																<div>
+																	Descripcion de la noticia o algo yo k se
+																</div>
+															</div>
+															<div class="medium-card-content-meta">
+																<hr class="subtle-divider"/>
+																<div class="gs-container">
+																	<div class="default-1-2">
+																		<div class="all-caps subtle icon-container icon-posted">
+																			<span>
+																				1 day ago
+																			</span>
+																		</div>
+																	</div>
+																	<div class="default-1-2">
+																		<div class="all-caps subtle">
+																			<a href="#">
+																				Noticias
+																			</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+																<div class="default-1-3"><!-- Diferentes cajas -->
+												<div class="content-border">
+													<div>
+														<div class="medium-card-content white-stone">
+															<div class="medium-card-content-content">
+																<h4>
+																	<div>
+																		<a>
+																			Titulo noticia
+																		</a>
+																	</div>
+																</h4>
+																<div>
+																	Descripcion de la noticia o algo yo k se
+																</div>
+															</div>
+															<div class="medium-card-content-meta">
+																<hr class="subtle-divider"/>
+																<div class="gs-container">
+																	<div class="default-1-2">
+																		<div class="all-caps subtle icon-container icon-posted">
+																			<span>
+																				1 day ago
+																			</span>
+																		</div>
+																	</div>
+																	<div class="default-1-2">
+																		<div class="all-caps subtle">
+																			<a href="#">
+																				Noticias
+																			</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+																<div class="default-1-3"><!-- Diferentes cajas -->
+												<div class="content-border">
+													<div>
+														<div class="medium-card-content white-stone">
+															<div class="medium-card-content-content">
+																<h4>
+																	<div>
+																		<a>
+																			Titulo noticia
+																		</a>
+																	</div>
+																</h4>
+																<div>
+																	Descripcion de la noticia o algo yo k se
+																</div>
+															</div>
+															<div class="medium-card-content-meta">
+																<hr class="subtle-divider"/>
+																<div class="gs-container">
+																	<div class="default-1-2">
+																		<div class="all-caps subtle icon-container icon-posted">
+																			<span>
+																				1 day ago
+																			</span>
+																		</div>
+																	</div>
+																	<div class="default-1-2">
+																		<div class="all-caps subtle">
+																			<a href="#">
+																				Noticias
+																			</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="section-wrapper-bottom"></div>
+							</div>
+							<div class="visible row">
+								<div class="col-lg-12 col-md-12">
+									<div class="row">
+										<div class="col-lg-4 col-md-4">
+											<input type="button" name="info" class="pie-pag" value="Condiciones y terminos">
+										</div>
+										<div class="col-lg-4 col-md-4">
+											<input type="button" name="info" class="pie-pag" value="Información de contacto">
+										</div>
+										<div class="col-lg-4 col-md-4">
+											<input type="button" name="info" class="pie-pag" value="Porqué surgió">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
